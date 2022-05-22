@@ -1,0 +1,81 @@
+ul{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+li a{
+  height:20.5rem;
+  width:20 rem;
+  border:1px solid whitesmoke;
+  border-radius:1rem;
+  margin: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color:rgb(128, 0, 73);
+
+}
+li a:hover{
+  opacity: 0.9;
+  cursor:pointer;
+
+}
+li a img{
+  object-fit: cover;
+  height: 12.5rem;
+}
+
+.content{
+  margin-top: 0.3rem;
+  padding: 0.5rem 1rem;
+  position: relative;
+  height: 7rem;
+}
+.favourite{
+  text-align: right;
+  top:0.5rem;
+  right:1rem;
+  font-size: 1rem;
+
+}
+.stars{
+  margin-bottom: 0.2rem;
+}
+.product-item-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.origins{
+  flex:9;
+}
+.origins span{
+  border-radius: 2rem;
+  background-color:whitesmoke;
+  display:inline-block;
+  font-size: 0.8rem;
+  color:grey;
+  margin-right: 0.3rem;
+  padding: 0 0.5rem;
+  margin-top:0.2rem;
+}
+.cook-time{
+  text-align: right;
+  flex:3;
+  font-size: 1.2rem;
+}
+.price{
+  background:yellowgreen;
+  color:#414141;
+}
+
+
+
+
+
+
+
+
