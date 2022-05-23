@@ -121,6 +121,5 @@ export const sample_foods: food [] =[
     stars: 4.6,
     imageUrl:'assets/image-11.png',
     tags: ['Aloo','Peas','Masalas','lunch']
-  },
-
+  }
 ]
